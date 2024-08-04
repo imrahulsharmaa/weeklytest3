@@ -1,0 +1,79 @@
+body {
+  font-family: "Poppins", sans-serif;
+  height: 90vh;
+  background-color: lightgoldenrodyellow;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 8rem;
+  flex-wrap: wrap;
+}
+
+.left-container {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 3rem;
+  border-radius: 1rem;
+  background-color: lightpink;
+}
+
+.left-container > .product {
+  background-color: salmon;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border: 1.5px solid black;
+}
+
+.left-container > .product > .button button {
+  padding: 0.1rem 0.4rem;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+.left-container > .product > .button span {
+  padding: 0.1rem 0.4rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.left-container > .product > .button > button:hover {
+  cursor: pointer;
+}
+
+.right-container {
+  width: 15rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  padding: 0.5rem 3rem;
+  border-radius: 1rem;
+  text-align: center;
+  background-color: lightpink;
+}
+
+.right-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.right-container > div > span {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
